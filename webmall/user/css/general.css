@@ -1,0 +1,89 @@
+body {  background-image: url(http://203.96.37.253/webmall/random_loading01.JPG );
+      background-position:  center;
+      background-attachment:fixed;
+	margin: 0;
+	padding: 0;
+	font: 12px Arial;
+}
+
+a { text-decoration: none; color: #1f65ac; }
+a:hover {  }
+
+/* centering in div */
+#align_center { width: 670px; text-align: center; }
+#align_center_inside { display: inline-block; }
+
+/* floats */
+.float_left { float: left; }
+.float_right { float: right; }
+.clear { clear: both; }
+
+#page_outer {
+	width: 670px;
+	margin: 0 auto;
+}
+
+#page_inner {
+	width: 670px;
+}
+
+#page_box {
+	background: #f5f5f5;
+	border: 1px solid #d6d6d6;
+	width: 670px;
+	min-height: 150px;
+	margin-top: 70px;
+	padding-bottom: 10px;
+}
+
+#menu {
+	background: #ffffff;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 3px;
+}
+
+#cats {
+	position: absolute;
+	background: #ffffff;
+	border: 1px solid #d6d6d6;
+        width: 658px;
+	padding: 5px;
+	margin-top: -65px;
+}
+
+#cats legend {
+	font-weight: bold;
+}
+
+.active_cat {
+	color: #4d9d0d;
+}
+
+#shop_item_box {
+	float: left;
+	width: 200px;
+	border: 1px solid #d0d0d0;
+	background: #ebebeb;
+	padding: 5px;
+	margin: 5px;
+}
+
+#shop_item_box .title {
+	font: 12px Arial;
+}
+
+#shop_item_box .buy_button {
+	text-align: center;
+	margin-top: 5px;
+}
+
+#shop_item_box .price {
+	text-align: center;
+	margin-top: 5px;
+}
+
+#shop_item_box .about {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

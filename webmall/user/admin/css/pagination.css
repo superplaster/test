@@ -1,0 +1,74 @@
+/**
+ * -------------------------------------------
+ * @author			Prodzect
+ * @copyright		Copyright (c) 2008-2012              
+ * @author page http://llb.lt
+ * @contacts		prodzect@gmail.com
+ * --------------------------------------------
+**/
+.pagination_box {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.pagination {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #f0f0f0;
+	border: 1px solid #e7e6e6;
+	float: right;
+	padding: 4px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.pagination ul {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 12px;
+}
+
+.pagination li {
+	list-style-type: none;
+	display: inline;
+	padding-bottom: 1px;
+	padding: 1px;
+	float: left;
+}
+
+.pagination a, .pagination a:visited {
+	padding: 1px 5px;
+	border: 1px solid #b6dc9f;
+	background: #ddf3d0;
+	text-decoration: none; 
+	color: #589831;
+}
+
+.pagination a:hover, .pagination a:active {
+	font-weight: bold;
+	padding: 0 5px;
+	border: 1px solid #49911d;
+	background-color: #59b322;
+	color: #FFF;
+}
+
+.pagination li .currentpage {
+	font-weight: bold;
+	padding: 0 5px;
+	border: 1px solid #49911d;
+	background-color: #59b322;
+	color: #FFF;
+}
+
+.pagination li .disablepage {
+	padding: 0 5px;
+	border: 1px solid #929292;
+	color: #929292;
+}
+
+* html .pagination li .currentpage, * html .pagination li .disablepage {
+	margin-right: 5px;
+	padding-right: 0;
+}
